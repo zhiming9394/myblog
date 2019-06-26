@@ -13,4 +13,18 @@ export default [
         path:'/detail/4',
         summary:'记录学习react的一些事情',
     },
+    {
+        index:3,
+        title:'阿里云服务器之旅',
+        date:'2019-06-14',
+        path:'/detail/5',
+        summary:'记录学习react的一些事情',
+    },
+    {
+        index:4,
+        title:'微信小程序与公众号',
+        date:'2019-06-14',
+        path:'/detail/6',
+        summary:'记录学习react的一些事情',
+    },
 ]

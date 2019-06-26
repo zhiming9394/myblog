@@ -1,0 +1,64 @@
+.timeline {
+  display: block;
+  max-width: 768px;
+  margin: 30px auto 40px;
+  padding-left: 30px;
+  border-left: 3px solid #B0BEC5;
+}
+
+.timeline-title {
+  font-size: 28px;
+}
+
+.timeline-item a {
+  color: #212121;
+  font-weight: normal;
+  transition: all .3s ease;
+}
+
+.timeline-title, .timeline-subtitle, .timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+  line-height: 32px;
+}
+
+.timeline .timeline-title::before, .timeline .timeline-subtitle::before, .timeline .timeline-item::before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-color: #B0BEC5;
+  border-radius: 50%;
+  background: white;
+  content: "";
+  transition: all .3s ease;
+}
+
+.timeline-title::before {
+  width: 12px;
+  height: 12px;
+  border-width: 4px;
+  left: -42px;
+}
+
+.timeline-subtitle::before {
+  width: 11px;
+  height: 11px;
+  border-width: 3px;
+  left: -40px;
+}
+
+.timeline-item::before {
+  width: 9px;
+  height: 9px;
+  border-width: 2px;
+  left: -38px;
+}
+
+.timeline-title:hover::before, .timeline-subtitle:hover::before, .timeline-item:hover::before {
+  border-color: #F4511E;
+}
+
+.timeline-title:hover a, .timeline-subtitle:hover a, .timeline-item:hover a {
+  color: #F4511E;
+}
