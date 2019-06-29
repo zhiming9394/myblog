@@ -27,4 +27,11 @@ export default [
         path:'/detail/6',
         summary:'记录学习react的一些事情',
     },
+    {
+        index:4,
+        title:'git git git',
+        date:'2019-06-129',
+        path:'/detail/7',
+        summary:'记录学习react的一些事情',
+    },
 ]
