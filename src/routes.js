@@ -35,12 +35,22 @@ export default [
     {
         name:'服务器',
         path:'/detail/5',
-        component:AC(()=> import('./views/detail/index'))
+        component:AC(()=> import('./views/detail/timeline/centos7'))
+    },
+    {
+        name:'服务器',
+        path:'/detail/5/1',
+        component:AC(()=> import('./views/detail/blog/centos7/1'))
+    },
+    {
+        name:'服务器',
+        path:'/detail/5/2',
+        component:AC(()=> import('./views/detail/blog/centos7/2'))
     },
     {
         name:'微信',
         path:'/detail/6',
-        component:AC(()=> import('./views/detail/blog/top.js'))
+        component:AC(()=> import('./views/detail/timeline/log.js'))
     },
     {
         name:'timeline',

@@ -22,9 +22,9 @@ export default [
     },
     {
         index:4,
-        title:'微信小程序与公众号',
+        title:'记事本',
         date:'2019-06-14',
         path:'/detail/6',
-        summary:'记录学习react的一些事情',
+        summary:'记录一些事情',
     },
 ]

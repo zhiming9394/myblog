@@ -29,10 +29,26 @@
 
 .passage-article h2 {
   font-size: 1.75em;
+  border-bottom: 1px solid #eaecef;
 }
 
 .passage-article h1, .passage-article h2, .passage-article h3, .passage-article h4, .passage-article h5, .passage-article h6 {
   position: relative;
   font-weight: 600;
   margin: 15px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .passage {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 8%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .passage {
+    margin: 0 auto;
+    padding: 0 8%;
+  }
 }
